@@ -20,7 +20,7 @@ class Schedule:
   
   def write_schedule(self):
     if self.data.status_code == 200:
-      data_directory = '../data'
+      data_directory = '../../data/schedule_data'
       output = os.path.join(data_directory, f"schedule_{self._route}_{self._direction}.txt")
       
       with open(output, 'w', encoding='utf-8') as file:

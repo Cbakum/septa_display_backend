@@ -1,0 +1,9 @@
+import os
+
+# Find Transit API key
+api_key = os.environ.get('TRANSIT_API_KEY')
+
+# Grab real-time data from Transit
+
+print(api_key)
+
